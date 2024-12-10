@@ -14,3 +14,11 @@ In this task you will assess whether numpy.random.normal() properly generates no
 Use the scipy.stats.shapiro() function to test whether your sample came from a normal distribution. Explain the results and output.
 
 Plot a histogram of your values and plot the corresponding normal distribution probability density function on top of it.
+
+### Task 3: t-Test Calculation
+Consider the following dataset containing resting heart rates for patients before and after embarking on a two-week exercise program.
+
+Patient ID	0	1	2	3	4	5	6	7	8	9
+Before	63	68	70	64	74	67	70	57	66	65
+After	64	64	68	64	73	70	72	54	61	63
+Calculate the t-statistic based on this data set, using Python. Compare it to the value given by scipy.stats. Explain your work and list any sources used.
